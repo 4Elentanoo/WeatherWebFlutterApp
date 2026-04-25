@@ -108,6 +108,16 @@ class _MainPageState extends State<MainPage> {
                                       ? Text("Empty")
                                       : Column(
                                           children: [
+                                            Row(
+                                              children: [
+                                                Text(
+                                                  forecast[index].date
+                                                      .toString()
+                                                      .split(' ')
+                                                      .first,
+                                                ),
+                                              ],
+                                            ),
                                             Expanded(
                                               child: Center(
                                                 child: Text(
