@@ -1,4 +1,4 @@
-# open_weather_app
+# easy_weather
 
 A new Flutter project.
 
